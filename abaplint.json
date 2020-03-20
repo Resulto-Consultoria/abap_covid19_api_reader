@@ -32,7 +32,6 @@
         "constructor_visibility_public": {
             "reason": "https://github.com/SAP/styleguides/blob/master/clean-abap/CleanABAP.md#if-your-global-class-is-create-private-leave-the-constructor-public"
         },
-        "message_exists": false,
         "description_empty": false,
         "empty_statement": true,
         "empty_structure": {
@@ -57,7 +56,7 @@
             "length": 120,
             "reason": "https://github.com/SAP/styleguides/blob/master/clean-abap/CleanABAP.md#stick-to-a-reasonable-line-length"
         },
-        "message_exists": true,
+        "message_exists": false,
         "method_length": {
             "statements": 100,
             "ignoreTestClasses": false,
@@ -212,7 +211,6 @@
             "tabl": "^Z(|S\\_|SV\\_)COVID19",
             "ttyp": "^ZT(|V)_COVID19",
             "dtel": "^ZCOVID19",
-            "doma": "^ZCOVID19",
             "msag": "^ZCOVID19",
             "tran": "^Z(COVID19|22)",
             "enqu": "^ZECOVID19",
