@@ -1,2 +1,8 @@
-- name: abaplint Action
-  uses: abaplint/actions-abaplint@master
+language: node_js
+node_js:
+  - "10"
+notifications:
+  email: false
+script:
+  - npm run eslint
+  - npm run abaplint
