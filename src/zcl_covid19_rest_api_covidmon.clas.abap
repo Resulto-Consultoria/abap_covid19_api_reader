@@ -50,7 +50,7 @@ CLASS zcl_covid19_rest_api_covidmon IMPLEMENTATION.
 
   METHOD fill_request_header_fields.
     rt_fields = VALUE #( ( name = 'x-rapidapi-host' value = 'coronavirus-monitor.p.rapidapi.com' )
-                         ( name = 'x-rapidapi-key'  value = '448cc0e5dbmshb275d28846f4384p1ea405jsn798e4b58bff5' ) ).
+                         ( name = 'x-rapidapi-key'  value = '<API-KEY-HERE>' ) ).
   ENDMETHOD.
 
 
