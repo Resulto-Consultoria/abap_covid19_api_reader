@@ -32,6 +32,7 @@
         "constructor_visibility_public": {
             "reason": "https://github.com/SAP/styleguides/blob/master/clean-abap/CleanABAP.md#if-your-global-class-is-create-private-leave-the-constructor-public"
         },
+        "message_exists": false,
         "description_empty": false,
         "empty_statement": true,
         "empty_structure": {
