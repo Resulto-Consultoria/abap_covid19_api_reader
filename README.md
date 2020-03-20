@@ -1,3 +1,4 @@
+[![abaplint](https://app.abaplint.org/badges/Resulto-Consultoria/abap_covid19_api_reader)](https://app.abaplint.org/project/Resulto-Consultoria/abap_covid19_api_reader)
 # Reader for Covid19 Rest APIs
 
 Abstract class zcl_covid19_rest_api will be used as base of rest api client to read from different data sources.
