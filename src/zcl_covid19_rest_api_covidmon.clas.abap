@@ -24,7 +24,6 @@ CLASS zcl_covid19_rest_api_covidmon DEFINITION
       get_rfc_dest REDEFINITION,
       fill_request_header_fields REDEFINITION,
       get_stats_latest_method REDEFINITION,
-      get_stats_global_method REDEFINITION,
       get_stats_country_method REDEFINITION,
       get_history_method REDEFINITION,
       get_history_country_method REDEFINITION,
@@ -50,17 +49,12 @@ CLASS zcl_covid19_rest_api_covidmon IMPLEMENTATION.
 
   METHOD fill_request_header_fields.
     rt_fields = VALUE #( ( name = 'x-rapidapi-host' value = 'coronavirus-monitor.p.rapidapi.com' )
-                         ( name = 'x-rapidapi-key'  value = '<API-KEY-HERE>' ) ).
+                         ( name = 'x-rapidapi-key'  value = '448cc0e5dbmshb275d28846f4384p1ea405jsn798e4b58bff5' ) ).
   ENDMETHOD.
 
 
   METHOD get_stats_country_method.
     rv_method = gc_methods-country.
-  ENDMETHOD.
-
-
-  METHOD get_stats_global_method.
-*    rv_method = gc_methods-get_global.
   ENDMETHOD.
 
 

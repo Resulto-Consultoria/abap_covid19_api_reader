@@ -199,9 +199,6 @@ CLASS zcl_covid19_rest_api_tracker IMPLEMENTATION.
 
     DATA(lt_locations) = conv_response_locations( iv_response ).
 
-    LOOP AT lt_locations INTO DATA(ls_location).
-    ENDLOOP.
-
   ENDMETHOD.
 
 
