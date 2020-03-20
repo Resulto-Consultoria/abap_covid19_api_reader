@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_COVID19_REST_API</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Covid19 Rest Api</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_COVID19_REST_API</CLSNAME>
+     <CMPNAME>GET_HISTORY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get cases history</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_COVID19_REST_API</CLSNAME>
+     <CMPNAME>GET_HISTORY_COUNTRY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get cases history by country</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_COVID19_REST_API</CLSNAME>
+     <CMPNAME>GET_STATS_COUNTRY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Country Statics</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_COVID19_REST_API</CLSNAME>
+     <CMPNAME>GET_STATS_GLOBAL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Global Statics</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_COVID19_REST_API</CLSNAME>
+     <CMPNAME>GET_STATS_LATEST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Global Statics</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
