@@ -25,7 +25,6 @@ CLASS zcl_covid19_rest_api_covidmon DEFINITION
       fill_request_header_fields REDEFINITION,
       get_stats_latest_method REDEFINITION,
       get_stats_country_method REDEFINITION,
-      get_history_method REDEFINITION,
       get_history_country_method REDEFINITION,
 
       conv_stats_latest REDEFINITION,
@@ -60,11 +59,6 @@ CLASS zcl_covid19_rest_api_covidmon IMPLEMENTATION.
 
   METHOD get_stats_latest_method.
     rv_method = gc_methods-latest.
-  ENDMETHOD.
-
-
-  METHOD get_history_method.
-
   ENDMETHOD.
 
 
